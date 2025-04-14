@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm Fernanda Flores</h1>
 <h3 align="center">Building Data Science Projects, Passionate about Machine Learning Applications</h3>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=ffloresm30" alt="ffloresm30" /></a> </p>
-
 - 🔭 I’m currently working on **Personalized Recommendation Systems using Apriori with Streamlit**
 
 - 🌱 I’m currently learning **Power BI, R**
@@ -31,3 +29,5 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=ffloresm30&show_icons=true&locale=en" alt="ffloresm30" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ffloresm30&" alt="ffloresm30" /></p>
+
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=ffloresm30" alt="ffloresm30" /></a> </p>
