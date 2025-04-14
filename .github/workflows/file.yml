@@ -14,6 +14,6 @@ jobs:
     - uses: jasineri/gitartwork@v1  # Usa el GitHub Action de gitartwork
       with:
         user_name: ffloresm30  # Tu nombre de usuario en GitHub
-        text: "Machine Learning Enthusiast"  # Texto que quieres mostrar en el gráfico
+        text: "Data Enthusiast"  # Texto que quieres mostrar en el gráfico
 
     - uses: jasineri/simple-push-action@v1  # Empuja el archivo generado a tu repositorio
