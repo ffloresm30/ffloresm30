@@ -1,26 +1,19 @@
-name: Generar Gitartwork
+name: gitartwork from a contribution graph
 
-on:
-  push:
-    branches:
-      - main
+on: 
+  push:  # Ejecuta el workflow cada vez que empujes cambios
 
 jobs:
   build:
+    name: Make gitartwork SVG
     runs-on: ubuntu-latest
 
     steps:
-    - name: Clonar el repositorio
-      uses: actions/checkout@v2
+    - uses: actions/checkout@v3  # Clona tu repositorio
 
-    - name: Generar el arte de Git
-      run: |
-        git clone https://github.com/jasineri/gitartwork.git
-        cd gitartwork
-        python3 generate_artwork.py --username ffloresm30 --text "Machine Learning & Data Science Enthusiast: Solving challenges one model at a time."
+    - uses: jasineri/gitartwork@v1  # Usa el GitHub Action de gitartwork
+      with:
+        user_name: ffloresm30  # Tu nombre de usuario en GitHub
+        text: "Machine Learning Enthusiast"  # Texto que quieres mostrar en el gráfico
 
-    - name: Subir cambios
-      run: |
-        git add .
-        git commit -m "Actualizar Gitartwork"
-        git push
+    - uses: jasineri/simple-push-action@v1  # Empuja el archivo generado a tu repositorio
