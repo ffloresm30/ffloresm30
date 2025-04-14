@@ -1,0 +1,26 @@
+name: Generar Gitartwork
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Clonar el repositorio
+      uses: actions/checkout@v2
+
+    - name: Generar el arte de Git
+      run: |
+        git clone https://github.com/jasineri/gitartwork.git
+        cd gitartwork
+        python3 generate_artwork.py --username ffloresm30 --text "Machine Learning & Data Science Enthusiast: Solving challenges one model at a time."
+
+    - name: Subir cambios
+      run: |
+        git add .
+        git commit -m "Actualizar Gitartwork"
+        git push
