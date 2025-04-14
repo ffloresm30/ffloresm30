@@ -3,7 +3,7 @@
 
 <!-- Sección del Gitartwork -->
 <p align="center">
-  <img src="ruta_de_tu_gitartwork.gif" alt="Machine Learning Enthusiast: Solving challenges one model at a time." />
+  <img src="gitartwork.svg" alt="Machine Learning Enthusiast: Solving challenges one model at a time." />
 </p>
 
 <!-- Lista de puntos -->
