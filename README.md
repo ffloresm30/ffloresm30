@@ -3,7 +3,7 @@
 
 <!-- Sección del Gitartwork -->
 <p align="center">
-  <img src="gitartwork.svg" alt="Machine Learning Enthusiast: Solving challenges one model at a time." />
+  <img src="gitartwork.svg" alt="Igniter" />
 </p>
 
 <!-- Lista de puntos -->
