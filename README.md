@@ -3,7 +3,7 @@
 
 <!-- Sección del Gitartwork -->
 <p align="center">
-  <img src="gitartwork.svg" alt="Igniter" />
+  <img src="gitartwork.svg" alt="Igniter: Representando pasión y energía en Data Science." />
 </p>
 
 <!-- Lista de puntos -->
